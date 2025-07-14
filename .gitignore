@@ -13,3 +13,5 @@ __pycache__/
 # Sensitive information
 .env
 *.log
+
+requirements.txt
