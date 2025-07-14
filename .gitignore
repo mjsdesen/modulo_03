@@ -1,0 +1,15 @@
+# Virtual environment
+flask/
+.flask/
+env/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# IDE/Editor specific files
+.vscode/
+
+# Sensitive information
+.env
+*.log
