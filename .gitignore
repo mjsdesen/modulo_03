@@ -1,17 +1,84 @@
-# Virtual environment
-flask/
-.flask/
+# Virtual environments
 env/
+venv/
+.venv/
+.flask/
+flask/
 
-# Compiled Python files
-*.pyc
+# Python bytecode
 __pycache__/
+*.py[cod]
+*$py.class
 
-# IDE/Editor specific files
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs and editors
 .vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
 
 # Sensitive information
 .env
-*.log
+.env.*
+*.secret
+*.pem
+*.key
 
-requirements.txt
+# Misc
+*.bak
+*.swp
+*.tmp
+*.orig
+
